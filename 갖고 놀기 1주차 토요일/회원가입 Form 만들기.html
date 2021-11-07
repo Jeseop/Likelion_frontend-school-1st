@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+</head>
+<body>
+    <form action="" method="get"></form>
+    <!-- method 값은 get과 post가 있다.
+        EX) ?아이디=bear&패스워드=dkssud&성별=남&언어=Python
+        '성별'은 name, '남'은 value
+        id는 앞 뒤에 있는 라벨을 클릭했을 때, 커서가 이동하게 하는 역할을 한다. -->
+        <label for="id">아이디</label>
+        <input type="text" name="아이디" id="id"><br>
+        <label for="pw">패스워드</label>
+        <input type="password" name="패스워드" id="pw"><br>
+        <label for="male">남</label>
+        <input type="radio" name="성별" id="male" value="남"><br>
+        <label for="female">여</label>
+        <input type="radio" name="성별" id="female" value="여"><br>
+    <p>좋아하는 프로그래밍 언어</p>
+    <input type="checkbox" name="언어" id="python" value="Python">
+    <label for="python">Python</label>
+    <input type="checkbox" name="언어" id="C++" value="C++">
+    <label for="C++">C++</label>
+    <input type="checkbox" name="언어" id="javascript" value="javascript">
+    <label for="javascript">javascript</label>
+    <input type="submit" value="회원가입">
+</body>
+</html>
